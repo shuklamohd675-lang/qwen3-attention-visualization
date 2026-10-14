@@ -1,0 +1,25 @@
+Qwen3 Attention Visualization — Independent Reproduction of Experiment 2-2
+
+This repository includes source code derived from:
+
+    ai-agent-book
+    https://github.com/bojieli/ai-agent-book
+    Upstream commit: dbc046eb896ac4e39aa19c7774c8bf49583b89a6
+    Copyright 2025 Bojie Li
+
+The upstream material is licensed under the Apache License, Version 2.0.
+A copy of that license and the upstream copyright notice is included in LICENSE.
+Existing upstream attribution notices are retained.
+
+This independent reproduction adds local execution and download entry points,
+pinned model loading, progress reporting, numerical and termination checks,
+result verification, documentation, and a retained experiment result package.
+The upstream attention capture, metrics, plotting utilities, and experiment
+protocol remain attributed to the original project.
+
+The experiment uses Qwen/Qwen3-0.6B from the Qwen team:
+    https://huggingface.co/Qwen/Qwen3-0.6B
+    Model revision: c1899de289a04d12100db370d81485cdf75e47ca
+
+Model weights are not distributed in this repository. The download entry point
+retrieves them separately from their official source.

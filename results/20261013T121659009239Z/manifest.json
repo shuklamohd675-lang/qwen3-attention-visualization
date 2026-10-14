@@ -1,0 +1,31 @@
+{
+  "experiment_id": "2-2",
+  "status": "passed",
+  "gates": {
+    "exact_model": true,
+    "pinned_real_model_revision": true,
+    "beijing_prompt_exact": true,
+    "simple_three_layers_captured": true,
+    "generated_three_layers_captured": true,
+    "matrices_finite": true,
+    "matrices_nonnegative": true,
+    "matrix_shapes_match_tokens": true,
+    "rows_sum_to_one": true,
+    "causal_triangle_exact": true,
+    "thinking_region_present": true,
+    "final_answer_region_present": true,
+    "generation_completed_eos": true,
+    "lossless_matrices_present": true,
+    "heatmaps_present": true
+  },
+  "artifacts": {
+    "attention_matrices.npz": "34d2b89507c014dd9171810535d685ae701240a13bcb5c39496a63b5090259d6",
+    "beijing_attention_layers.png": "54b279c295e3287a7fe2286fcd05d3afcf7f57f692fa2d30d37d0dccb3bb922f",
+    "beijing_tokens_readable.png": "2ee1208d70a13c988ca5d35eac2693c37af0988e092247cee1df3aa4c306d957",
+    "evidence.json": "69202a675b3192cfc1340137a7f408a33c33cf2d48c76df10de8fbcd10c3eefd",
+    "experiment_protocol.json": "7e4f73fb4b4fede8f6cf39552aec58f26c3d7b0e71ec7ab821766a228d1e1106",
+    "reasoning_answer_attention_layers.png": "dc75e74906c62a9fa35b919b70e8723205d143efa1db150de0db4348eb33326f",
+    "run_parameters.json": "65d2e92e4a3c5004b181686f271e485ee2ceaa99442e2ad6cfdc99ee0495bd41",
+    "summary.json": "ab91065c6c437f4a0ef8b83f9c78689c236563619cb55501ac936d246e2dd7b5"
+  }
+}

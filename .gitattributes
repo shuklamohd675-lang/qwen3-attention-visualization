@@ -1,0 +1,4 @@
+# Preserve the byte-level hashes of the original source and evidence files.
+* -text
+*.png binary
+*.npz binary

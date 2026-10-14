@@ -1,0 +1,13 @@
+.venv/
+.local/
+.cache/
+.model-cache/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.safetensors
+*.incomplete
+*.range-*
+.DS_Store
+Thumbs.db

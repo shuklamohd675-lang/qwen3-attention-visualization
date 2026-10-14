@@ -1,0 +1,12 @@
+# Direct dependencies from the tested Python 3.12 environment.
+# Install the CPU torch wheel first as described in README.md.
+torch==2.13.0
+transformers==5.14.1
+numpy==1.26.4
+matplotlib==3.11.1
+seaborn==0.13.2
+huggingface-hub==1.24.0
+safetensors==0.8.0
+tokenizers==0.22.2
+requests==2.33.1
+Pillow==12.3.0
